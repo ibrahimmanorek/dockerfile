@@ -1,0 +1,29 @@
+#melihat docker image
+docker image ls
+
+#melihat docker image
+docker images
+
+#install docker image atau bisa dikunjing di hub.docker.com
+docker image pull <imagename>:<version>
+
+#jika ingin menghapus image
+docker image rm <imagename>:<version>
+
+#untuk melihat semua docker container
+docker container ls -a
+
+#untuk melihat docker yang sedang running
+docker container ls
+
+#untuk membuat docker container
+docker container create --name namacontainer <imagename>:<version>
+
+#untuk menjalankan docker container
+docker container start namacontainer
+
+#untuk menghentikan docker container
+docker container stop namacontainer
+
+#untuk menghapus docker container
+docker container rm namacontainer
